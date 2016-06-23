@@ -3,17 +3,21 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Hexo</title>
+  <title>Hello World | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hello World">
+<meta property="og:url" content="http://yoursite.com/2016/06/24/hello-world/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description">
+<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick">
+<meta property="og:updated_time" content="2016-06-23T16:03:40.328Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
-<meta name="twitter:description">
+<meta name="twitter:title" content="Hello World">
+<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -62,100 +66,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-centos" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/06/24/centos/" class="article-date">
-  <time datetime="2016-06-23T16:17:56.654Z" itemprop="datePublished">2016-06-24</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/24/centos/">CentOS 7安装配置Redis数据库</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Redis就是一种基于key-value的非关系型数据库。这里我将介绍Redis在CentOS 7下如何安装配置</p>
-<p><strong>方法/步骤</strong></p>
-<p><strong>Redis源码获取</strong></p>
-<p>1.1、进入Redis官网获取Redis最新稳定版下载地址2、通过wget命令下载 Redis 源代码。</p>
-<p><img src="../../image/9f510fb30f2442a76abff829d443ad4bd013028c.jpg.png" alt=""></p>
-<p><strong>Redis编译  
-</strong><br>1、通过tar -xvf redis-3.0.2.tar.gz命令解压下载Redis源码压缩包redis-3.0.2.tar.gz；</p>
-<p>2、编译Redis。通过cd redis-3.0.2/进入Redis源码目录内，执行make编译Redis；注意：</p>
-<p>make命令执行完成编译后，会在src目录下生成6个可执行文件，分别是redis-server、redis-cli、redis-benchmark、redis-check-aof、redis-check-dump、redis-sentinel</p>
-<p><img src="../../image/8435e5dde71190ef22a99653cb1b9d16fcfa60ef.jpg.png" alt=""></p>
-<p><strong>Redis安装配置</strong></p>
-<p>1、安装Redis，执行make install。会将ll编译生成的可执行文件拷贝到/usr/local/bin目录下；</p>
-<p>2、执行./utils/install_server.sh配置Redis配置之后Redis能随系统启动。</p>
-<p><img src="../../image/55e736d12f2eb938d7cb7d7ed0628535e4dd6f93.jpg.png" alt=""></p>
-<p><img src="../../image/5882b2b7d0a20cf40b36f95373094b36adaf9993.jpg.png" alt=""></p>
-<p><strong>Redis服务查看、开启、关闭</strong></p>
-<p>1、通过ps -ef|grep redis命令查看Redis进程；</p>
-<p>2、开启Redis服务操作通过/etc/inisert.d/redis_6379 start命令，也可通过（service redis_6379 start）；</p>
-<p>3、关闭Redis服务操作通过/etc/init.d/redis_6379 stop命令，也可通过（service redis_6379 stop）；</p>
-<p><img src="../../image/2cf5e0fe9925bc313f9d06145bdf8db1ca13707d.jpg.png" alt=""></p>
-<p><strong>Redis的测试与使用</strong></p>
-<p><strong> </strong> 开启Redis服务，进入Redis的命令行，近行测试</p>
-<p><img src="../../image/Image.png" alt=""></p>
-<p>注：</p>
-<p>在编译安装Redis的时候在执行Make后一般会要求有一个“Make Test”的测试检查，如果你的机器没有安装 Tcl的话会报出如下的异常，这样我们就可以测试了</p>
-<p>You need tcl 8.5 or newer in order to run the Redis test</p>
-<p>【安装Tcl-8.6.3】</p>
-<p>[root@localhost202 src]# wget <a href="http://downloads.sourceforge.net/tcl/tcl8.6.3-src.tar.gz" target="_blank" rel="external">http://downloads.sourceforge.net/tcl/tcl8.6.3-src.tar.gz</a></p>
-<p>[root@localhost202 src]# tar -zxf tcl8.6.3-src.tar.gz</p>
-<p>[root@localhost202 src]# cd tcl8.6.3/unix/</p>
-<p>[root@localhost202 src]# ./configure</p>
-<p>[root@localhost202 src]# make</p>
-<p>[root@localhost202 src]# make install</p>
-<p><strong>Redis的安全配置</strong></p>
-<ul>
-<li>当我们编译安装完redis后，并且设置完redis随机器启动的时候，我们的配置文件实际上已经自动生成的位置</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">当作为系统服务的时候redis的，启动文件的配置：/etc/init.d/redis_6379</span><br><span class="line">redis的配置文件的位置，默认的文件的名称：/etc/init.d/redis_6379</span><br></pre></td></tr></table></figure>
-<p>如果想要修改redis的配置，我们不能修改源码中的redis的redis.cof这个文件</p>
-<ul>
-<li>修改的配置文件的内容<ul>
-<li>/etc/init.d/redis_6379 通过启动脚本，我们可以确定，redis的配置文件的位置</li>
-<li>/etc/init.d/redis_6379修改的参数<ul>
-<li>开放当前的bind，添加本机外网的地址 bind 127.0.0.1 115.28.87.77</li>
-<li>修改requirepass，开放，添加author：requirepass aubergine</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>用户的登录<ul>
-<li>redis-cli -a aubergine  -a 表示auth</li>
-<li>redis-cli –help 帮助文档</li>
-</ul>
-</li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/06/24/centos/" data-id="cipsij3zk0001r8vbb7c54ant" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/06/24/hello-world/" class="article-date">
   <time datetime="2016-06-23T16:03:40.328Z" itemprop="datePublished">2016-06-24</time>
@@ -168,8 +79,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/24/hello-world/">Hello World</a>
+    <h1 class="article-title" itemprop="name">
+      Hello World
     </h1>
   
 
@@ -196,10 +107,23 @@
     </footer>
   </div>
   
-</article>
-
+    
+<nav id="article-nav">
+  
+    <a href="/2016/06/24/centos/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          CentOS 7安装配置Redis数据库
+        
+      </div>
+    </a>
+  
+  
+</nav>
 
   
+</article>
 
 </section>
         
