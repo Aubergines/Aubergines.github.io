@@ -2,3 +2,27 @@ language: node_js
 node_js:
   - "iojs"
   - "7"
+branches:
+  only:
+  - dev
+before_install:
+# 注意这里设置为自己的Git信息
+- git config --global user.name "Aubergines"
+- git config --global user.email "chinazhaoshuangquan@gmail.com"
+- npm install hexo-cli -g
+install:
+- npm install
+before_script:
+- npm install hexo-deployer-git --save
+# 注意这里替换为自己的GitHub地址
+- sed -i'' "s~git@github.com:Aubergines/Aubergines.github.io.git~https://${REPO_TOKEN}:x-oauth-basic@github.com/Aubergines/Aubergines.github.io.git~"
+  _config.yml
+script:
+- hexo clean
+- hexo generate
+after_success:
+- hexo deploy
+# 缓存node_modules
+cache:
+  directories:
+    - node_modules
