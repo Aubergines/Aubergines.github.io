@@ -1,4 +1,4 @@
-language: haxe
-haxe:
-  - "3.2.1"
-  - development
+language: node_js
+node_js:
+  - "iojs"
+  - "7"
