@@ -1,13 +1,9 @@
 language: node_js
 node_js: stable
 
-# S: Build Lifecycle
 install:
   - npm install
 
-
-#before_script:
- # - npm install -g gulp
 
 script:
   - hexo g
@@ -18,12 +14,12 @@ after_script:
   - git config user.name "Aubergines"
   - git config user.email "chinazhaoshuangquan@gmail.com"
   - git add .
-  - git commit -m "Update docs"
-  - git push --force --quiet "https://${gitHubToken}@${GH_REF}" master:master
+  - git commit -m "Update - auto deploy by Travis CI."
+  - git push --force --quiet "https://${gitHubToken}@${GITHUB_REF}" master:master
 
 branches:
   only:
-    - blog-source
+    - blog_source
 env:
- global:
-   - GH_REF: github.com/Aubergines/Aubergines.github.io.git
+  global:
+    - GITHUB_REF: github.com/Aubergines/Aubergines.github.io.git
