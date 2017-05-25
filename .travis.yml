@@ -18,7 +18,7 @@ script:
 
 branches:
   only:
-    - blog-source  #只监测hexo分支，hexo是我的分支的名称，可根据自己情况设置
+    - blog-source  #只监测blog-source分支，blog-source是我的分支的名称，可根据自己情况设置
 env:
  global:
    - GH_REF: github.com/Aubergines/Aubergines.github.io.git  #设置GH_REF，注意更改yourname   git@github.com:Aubergines/Aubergines.github.io.git
