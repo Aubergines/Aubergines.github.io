@@ -12,7 +12,7 @@ script:
 after_script:
   - cd ./public
   - git init
-  - git config user.name "Aubergines"  #修改name
+  - git config user.name "aubergines"  #修改name
   - git config user.email "chinazhaoshuangquan@gmail.com"  #修改email
   - git add .
   - git commit -m "update"
