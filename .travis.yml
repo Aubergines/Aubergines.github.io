@@ -1,28 +1,26 @@
-language: node_js
-node_js:
-  - "iojs"
-  - "7"
+language: node_js  #设置语言
+
+node_js: stable  #设置相应的版本
+
+install:
+  - npm install  #安装hexo及插件
+
+script:
+  - hexo cl  #清除
+  - hexo g  #生成
+
+after_script:
+  - cd ./public
+  - git init
+  - git config user.name "Aubergines"  #修改name
+  - git config user.email "chinazhaoshuangquan@gmail.com"  #修改email
+  - git add .
+  - git commit -m "update"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master  #GH_TOKEN是在Travis中配置token的名称
+
 branches:
   only:
-  - dev
-before_install:
-# 注意这里设置为自己的Git信息
-- git config --global user.name "Aubergines"
-- git config --global user.email "chinazhaoshuangquan@gmail.com"
-- npm install hexo-cli -g
-install:
-- npm install
-before_script:
-- npm install hexo-deployer-git --save
-# 注意这里替换为自己的GitHub地址
-- sed -i'' "s~git@github.com:Aubergines/Aubergines.github.io.git~https://${REPO_TOKEN}:x-oauth-basic@github.com/Aubergines/Aubergines.github.io.git~"
-  _config.yml
-script:
-- hexo clean
-- hexo generate
-after_success:
-- hexo deploy
-# 缓存node_modules
-cache:
-  directories:
-    - node_modules
+    - hexo  #只监测hexo分支，hexo是我的分支的名称，可根据自己情况设置
+env:
+ global:
+   - GH_REF: github.com/Aubergines/Aubergines.github.io.git  #设置GH_REF，注意更改yourname   git@github.com:Aubergines/Aubergines.github.io.git
