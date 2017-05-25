@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: hhstore's blog
+title: Aubergines's blog
 subtitle: Python, Golang 开发
 description: "个人技术博客"
-author: hhstore
+author: Aubergines
 language: zh-Hans # zh-CN #用中文
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://hhstore.github.io
+url: http://Aubergines.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -91,8 +91,8 @@ theme: next
 deploy:
   type: git
   repository: 
-      github: git@github.com:hhstore/hhstore.github.io.git
-      coding: git@git.coding.net:hhstore/blog.git
+      github: git@github.com:Aubergines/Aubergines.github.io.git
+      coding: git@git.coding.net:Aubergines/blog.git
   branch: master
 
 
@@ -112,7 +112,7 @@ wechatpay: /images/wechatpay.png
 
 
 # 多说帐号
-duoshuo_shortname: hhstore
+duoshuo_shortname: Aubergines
 
 # DISQUS 帐号 （如果已经设置 多说 帐号，此选项将被跳过）
 disqus_shortname: your-disqus-shortname
@@ -122,10 +122,10 @@ jiathis: true
 
 # 社交链接，将在侧栏中显示
 social:
-  GitHub: https://github.com/hhstore
-  邮箱: selfrefactor@gmail.com
+  GitHub: https://github.com/Aubergines
+  邮箱: chinazhaoshuangquan@gmail.com
   DouBan: http://www.douban.com/people/darkforce/
-  ZhiHu: http://www.zhihu.com/people/hhstore
+  ZhiHu: http://www.zhihu.com/people/Aubergines
   # 等等
 
 

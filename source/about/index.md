@@ -8,10 +8,9 @@ date: 2015-06-24 17:23:10
 
 - `性别`: 男
 - `学历`: 本科
-- `Email`: selfrefactor#gmail.com  (# = @)
-- [豆瓣](http://www.douban.com/people/darkforce/)
-- [Facebook](https://www.facebook.com/selfrebuild)
-- [Twitter](https://twitter.com/selfrebuild)
+- `Email`: chinazhaoshuangquan#gmail.com  (# = @)
+- [QQ](1181152036)
+- [sina](https://www.facebook.com/selfrebuild)
 
 ## Hobby
 - `阅读`: 经济, 历史, 哲学, 传记, 小说
