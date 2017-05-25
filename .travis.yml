@@ -8,8 +8,6 @@ install:
 script:
   - hexo cl  #清除
   - hexo g  #生成
-
-after_script:
   - cd ./public
   - git init
   - git config user.name "aubergines"  #修改name
