@@ -1,4 +1,7 @@
-﻿# Zookeeper集群环境搭建实践
+﻿---
+title: Zookeeper集群环境搭建实践
+---
+# Zookeeper集群环境搭建实践
 
 标签（空格分隔）： zookeeper
 
