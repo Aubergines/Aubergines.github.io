@@ -4,8 +4,8 @@
 
 ## 访问地址:
 
-- [博客](www.sqzhao.xyz)
-- [个人技术博客](www.sqzhao.xyz)
+- [博客](www.aubergine.cc)
+- [个人技术博客](www.aubergine.cc)
 
 
 ## 博客发布:
