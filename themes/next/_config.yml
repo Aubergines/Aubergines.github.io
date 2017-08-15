@@ -6,7 +6,7 @@
 favicon: /images/bitbug_favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Java, 运维, 大数据"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -145,7 +145,6 @@ social_icons:
 # in site  directory(source/uploads): /uploads/avatar.jpg
 #avatar:
 avatar: /images/avatar.jpg
-favicon: /images/bitbug_favicon.ico
 
 # Table Of Contents in the Sidebar
 toc:
