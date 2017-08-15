@@ -1,11 +1,11 @@
 ﻿---
 title: Zookeeper集群环境搭建实践
 date: 2017-8-01 22:12:10
-tags: [Zookeeper]
+tags: Zookeeper
 ---
 # Zookeeper集群环境搭建实践
 
-标签（空格分隔）： zookeeper
+标签 ： zookeeper
 
 ---
 
