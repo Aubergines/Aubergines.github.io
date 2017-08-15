@@ -1,6 +1,7 @@
 ﻿---
 title: Zookeeper集群环境搭建实践
-date:  2017年8月01日
+date: 2017-8-01
+title: Zookeeper
 ---
 # Zookeeper集群环境搭建实践
 

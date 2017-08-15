@@ -1,6 +1,7 @@
 ---
 title: Hello World
-date:  2017年6月15日
+date: 2017-6-15
+title: 测试
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post.
  Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo,
