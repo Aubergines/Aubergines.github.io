@@ -56,15 +56,6 @@
               {{ date(post.date, config.date_format) }}
             </time>
           </span>
-         <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">标签</span>
-            <time itemprop="dateCreated"  content="{{ post.tags }}">
-              {{ post.tags }}
-            </time>
-          </span>
           {% if post.categories and post.categories.length %}
             <span class="post-category" >
               &nbsp; | &nbsp;

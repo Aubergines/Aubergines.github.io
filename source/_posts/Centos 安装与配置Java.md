@@ -1,11 +1,11 @@
 ﻿---
 title: Centos 安装与配置Java
 date: 2017-8-15 12 22:12:10
-tags: Centos、 Java、 JDK
+tags: Centos Java JDK
 ---
 # Centos 安装与配置Java
 
-标签（空格分隔）： Centos Java JDK
+标签： Centos Java JDK
 
 ---
 我的环境是`CentOS release 6.5`，选择安装的JDK版本是`1.8.0_77`,下面是我的安装的过程：
