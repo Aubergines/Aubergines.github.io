@@ -1,7 +1,7 @@
 ﻿---
 title: Zookeeper集群环境搭建实践
-date: 2017-8-01
-tags: Zookeeper
+date: 2017-8-01 22:12:10
+tags: [Zookeeper]
 ---
 # Zookeeper集群环境搭建实践
 
