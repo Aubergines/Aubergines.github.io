@@ -1,4 +1,8 @@
-﻿# Centos 安装与配置Java
+﻿---
+title: Centos 安装与配置Java
+date:  2017年8月15日
+---
+# Centos 安装与配置Java
 
 标签（空格分隔）： Centos Java JDK
 
