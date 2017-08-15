@@ -145,7 +145,7 @@ social_icons:
 # in site  directory(source/uploads): /uploads/avatar.jpg
 #avatar:
 avatar: /images/avatar.jpg
-
+favicon: /images/bitbug_favicon.ico
 
 # Table Of Contents in the Sidebar
 toc:
