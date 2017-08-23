@@ -344,15 +344,15 @@ fancybox: true
 # Be aware that you should use the same version as internal ones to avoid potential problems.
 vendors:
   # Internal path prefix. Please do not edit it.
-  _internal: //cdn.bootcss.com/font-awesome/4.7.0/fonts/fontawesome-webfont.svg
+  _internal:
 
   # Internal version: 2.1.3
   jquery: https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js
 
   # Internal version: 2.1.5
   # http://fancyapps.com/fancybox/
-  fancybox:
-  fancybox_css:
+  fancybox: //cdn.bootcss.com/fancybox/3.1.20/jquery.fancybox.min.js
+  fancybox_css: //cdn.bootcss.com/fancybox/3.1.20/jquery.fancybox.min.css
 
   # Internal version: 1.0.6
   # https://github.com/ftlabs/fastclick
