@@ -1,6 +1,6 @@
 ﻿---
 title: Centos 安装与配置Java
-date: 2017-8-15 12 22:12:10
+date: 2017-8-15 22:12:10
 tags: [Centos, Java, JDK]
 ---
 # Centos 安装与配置Java
