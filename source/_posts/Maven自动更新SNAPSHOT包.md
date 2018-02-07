@@ -3,6 +3,9 @@ title: Maven自动更新SNAPSHOT包
 tags: Maven、SNAPSHOT
 grammar_cjkRuby: true
 ---
+
+标签： [Maven, 自动更新]
+
 1. IDEA配置修改：勾选“Always update snapshots”
 
     ![勾选](http://ov138d8j2.bkt.clouddn.com/2018/2/7/2018-02-07_135759.png)
