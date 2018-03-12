@@ -3,6 +3,7 @@ title: Spring security安全登录-当AJAX遇上Redirect
 tags: spring security、ajax、redirect
 grammar_cjkRuby: true
 ---
+标签： [spring security、ajax、redirect]
 
 前言：最近做平台引入spring security做为安全认证框架，在登录的时候使用的ajax的请求方式，最开始的做法是调用登录的接口，成功后再前端使用`window.location.href = ./index.html`的方式跳转到希望的页面，考虑到以后会根据用户的权限做页面的跳转，就打算在后台做成功页面的跳转，这个时候想到了`Redirect`,当然直接用的话是无法达到跳转的目的的，浏览器只会发生一个对应页面的请求，不会刷新页面
 * response.sendRedirect的机制
