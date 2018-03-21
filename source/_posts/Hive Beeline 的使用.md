@@ -30,13 +30,13 @@ grammar_cjkRuby: true
 	</property>
 		<!--HiveServer2 配置启动端口，默认是10000 -->
 	<property>
-			<name>hive.server2.thrift.http.port</name>
-			<value>10086</value>
+		<name>hive.server2.thrift.http.port</name>
+		<value>10086</value>
 	</property>
 	<!--HiveServer2 配置连接方式，Expects one of [binary, http].Transport mode of HiveServer2 -->
 	<property>
-			<name>hive.server2.transport.mode</name>
-			<value>http</value>
+		<name>hive.server2.transport.mode</name>
+		<value>http</value>
 	</property>
 	<property>
 		<name>hive.server2.thrift.http.path</name>
@@ -44,17 +44,17 @@ grammar_cjkRuby: true
 		<description>Path component of URL endpoint when in HTTP mode.</description>
 	 </property>
 	 <property>
-			<name>hive.server2.thrift.max.worker.threads</name>
-			<value>500</value>
+		<name>hive.server2.thrift.max.worker.threads</name>
+		<value>500</value>
 	 </property>
 	 <property>
-			<name>hive.server2.thrift.min.worker.threads</name>
-			<value>5</value>
+		<name>hive.server2.thrift.min.worker.threads</name>
+		<value>5</value>
 	 </property>
 	 <!--重要配置，默认情况下，HiveServer2以提交查询的用户执行查询。Setting this property to true will have HiveServer2 execute Hive operations as the user making the calls to it -->
 	 <property>
-			<name>hive.server2.enable.doAs</name>
-			<value>false</value>
+		<name>hive.server2.enable.doAs</name>
+		<value>false</value>
 	 </property>
 	```
 	2. 自定义验证类，实现`PasswdAuthenticationProvider`即可
