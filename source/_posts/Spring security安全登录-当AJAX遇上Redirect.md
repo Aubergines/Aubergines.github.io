@@ -43,7 +43,7 @@ grammar_cjkRuby: true
 ```
 原理：前端通过解析后端的响应头`Header`中包含的信息，做特殊的处理
 [Ajax 如何执行 Response.Redirect][1]
-[解决ajax请求下，后台sendRedirect页面跳转无效][2]s
+[解决ajax请求下，后台sendRedirect页面跳转无效][2]
 
 
   [1]: https://www.cnblogs.com/yipeng-yu/p/7850389.html
