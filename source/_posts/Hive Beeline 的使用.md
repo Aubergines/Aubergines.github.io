@@ -22,7 +22,7 @@ grammar_cjkRuby: true
 	<!-- hive-site.xml中配置用户密码 -->
 	<property>
 		<name>hive.jdbc_passwd.auth.root</name>
-		<value>hMOJy$^yh$8AH5CX</value>
+		<value>123456</value>
 	</property>
 	<property>
 		<name>hive.metastore.schema.verification</name>
@@ -31,7 +31,7 @@ grammar_cjkRuby: true
 		<!--HiveServer2 配置启动端口，默认是10000 -->
 	<property>
 			<name>hive.server2.thrift.http.port</name>
-			<value>10001</value>
+			<value>10086</value>
 	</property>
 	<!--HiveServer2 配置连接方式，Expects one of [binary, http].Transport mode of HiveServer2 -->
 	<property>
@@ -98,9 +98,9 @@ grammar_cjkRuby: true
 	 3. 连接hiveserver2服务，对应的用户名和密码是在`hive-site.xml`中配置的认证用的用户名和密码：` !connect jdbc:hive2://127.0.0.1:10001/default;transportMode=http;httpPath=cliservice root` 后面跟着的`root`表示用户名，这里可以不写，回车后会有相应的提示
 	 
 	 ![进入命令行][1]
-	4. 使用，使用方法和Hive的CLI类似
+	 4. 使用，使用方法和Hive的CLI类似
 	
-	![使用方法][2]
+	 ![使用方法][2]
 
 3. 使用JAVA客户端连接HiveServer2
 	1. 下面展示一下我写的1.0 版本的连接池，后续使用了`druid`来维护这个连接池
