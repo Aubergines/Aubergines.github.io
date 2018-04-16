@@ -29,18 +29,18 @@ grammar_cjkRuby: true
 	``` shell
 	insert into hive_hbase_test select id,page_id,operation_param from test_txt;
 	```
-  4. 查询HIVE中的数据
+ 4. 查询HIVE中的数据
 	  
 	 ![enter description here][1]
 	  
-  5. 查询Hbase中的数据
+ 5. 查询Hbase中的数据
   
    ![enter description here][2]
-  6. 清理数据，不能使用hive的`truncate`数据，因为数据的存储是有Hbase来管理的，所以可以使用
+ 6. 清理数据，不能使用hive的`truncate`数据，因为数据的存储是有Hbase来管理的，所以可以使用
   
-![enter description here][3]
+  ![enter description here][3]
 
-![enter description here][4]
+  ![enter description here][4]
 
 
   [1]: http://ov138d8j2.bkt.clouddn.com/2018/4/16/hive.png "hive数据"
