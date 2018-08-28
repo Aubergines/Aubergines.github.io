@@ -75,10 +75,16 @@ grammar_cjkRuby: true
 4. 导出数据
 	* 导出到文件系统
 	```
-	insert overwrite local directory '/data/test.txt'  row format delimited  fields terminated by '\t' select t1 from test;
+	insert overwrite local directory '/data/test.txt'  row format delimited  fields 
+	terminated by '\t' select t1 from test;
 	```
    * 导出到数据库，使用的是Sqoop
    ```
-   sqoop export --connect "jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8" --username root --password '123456' --table test  --columns "id, customer_id, customer_name" --export-dir /user/hive/warehouse/stat.db/test --input-fields-terminated-by '\t' --lines-terminated-by '\n' --input-null-string '\\N' --input-null-non-string '\\N' -m 1;
+   sqoop export --connect "jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8" 
+   --username root --password '123456' --table test  
+   --columns "id, customer_id, customer_name" 
+   --export-dir /user/hive/warehouse/stat.db/test 
+   --input-fields-terminated-by '\t' --lines-terminated-by '\n' 
+   --input-null-string '\\N' --input-null-non-string '\\N' -m 1;
 
    ```
