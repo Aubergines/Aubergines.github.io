@@ -8,7 +8,7 @@ grammar_cjkRuby: true
 
  1. 创建表
 	 * 创建Hive内部表
-	 ```sql
+	 ```
 	 CREATE TABLE test (
 		customer_id   BIGINT,
 		resource_id   BIGINT,
@@ -48,16 +48,13 @@ grammar_cjkRuby: true
 	```
 	truncate table test;
 	```
-	
 	* 外部表,这里我说的是Hbase的外部表，因为对应的数据是保存在Hbase中，所以只能通过Hbase的命令来处理数据
-	
 	``` shell
 	#!/bin/sh
 	source /etc/profile
-
 	echo "truncate 'recommend:test'" |hbase shell
-
 	```
+
 3. 导入数据
 	* 从本地磁盘导入数据
 	```
@@ -74,6 +71,7 @@ grammar_cjkRuby: true
 	// 覆盖插入
 	load data inpath '/data/test.txt' OVERWRITE into table test;
  	```
+
 4. 导出数据
 	* 导出到文件系统
 	```
