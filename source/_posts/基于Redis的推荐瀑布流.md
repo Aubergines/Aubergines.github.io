@@ -24,5 +24,9 @@ grammar_cjkRuby: true
 	* 优化：如果自己站内的资源非常的庞大，并且会不停的推荐给用户，那就要做好定时清理数据的准备，避免SortedSet特别大的情况，我们可以每次在给用户推荐数据的时候，使用`ZCARD`,计算当前的列表的量，如果超过一定的量可以先删除一部分。
 
 PS：欢迎关注公众号
+	
+![enter description here][2]
+
 
   [1]: http://ov138d8j2.bkt.clouddn.com/2018/11/2/2018-11-02_131020.png "数据情况"
+  [2]: http://ov138d8j2.bkt.clouddn.com/2018/11/2/qrcode_for_gh_51fe6eabc8b3_258.jpg "二维码"
