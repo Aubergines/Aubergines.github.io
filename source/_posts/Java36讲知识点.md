@@ -1,6 +1,6 @@
 ---
 title: Java36讲知识点 
-tags:Java,知识点,基础
+tags: Java,知识点,基础
 date: 2018-11-25 20:11:10
 grammar_cjkRuby: true
 ---
