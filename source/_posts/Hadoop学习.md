@@ -91,7 +91,7 @@ Hadoop是使用Java编写，允许分布在集群，使用简单的编程模型�
 		
 
 
-  [1]: http://ov138d8j2.bkt.clouddn.com/2017/9/2/2017-09-02_134220.png "Hadoop 版本信息"
-  [2]: http://ov138d8j2.bkt.clouddn.com/2017/9/19/2017-09-15_222231.png "进程信息"
-  [3]: http://ov138d8j2.bkt.clouddn.com/2017/9/19/2017-09-19_223410.png "进程信息"
-  [4]: http://ov138d8j2.bkt.clouddn.com/2017/9/19/2017-09-19_223424.png "详细步骤"
+  [1]: http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/2017/9/2/2017-09-02_134220.png "Hadoop 版本信息"
+  [2]: http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/2017/9/19/2017-09-15_222231.png "进程信息"
+  [3]: http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/2017/9/19/2017-09-19_223410.png "进程信息"
+  [4]: http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/2017/9/19/2017-09-19_223424.png "详细步骤"

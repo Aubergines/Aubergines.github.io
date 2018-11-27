@@ -43,7 +43,7 @@ grammar_cjkRuby: true
   ![enter description here][4]
 
 
-  [1]: http://ov138d8j2.bkt.clouddn.com/2018/4/16/hive.png "hive数据"
-  [2]: http://ov138d8j2.bkt.clouddn.com/2018/4/16/hbase.png "hbase数据"
-  [3]: http://ov138d8j2.bkt.clouddn.com/2018/4/16/2018-04-16-1919.png "无法使用HIVE清理数据"
-  [4]: http://ov138d8j2.bkt.clouddn.com/2018/4/16/2018-04-16_191953.png "HBase清理数据"
+  [1]: http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/2018/4/16/hive.png "hive数据"
+  [2]: http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/2018/4/16/hbase.png "hbase数据"
+  [3]: http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/2018/4/16/2018-04-16-1919.png "无法使用HIVE清理数据"
+  [4]: http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/2018/4/16/2018-04-16_191953.png "HBase清理数据"

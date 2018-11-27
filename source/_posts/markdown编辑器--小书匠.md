@@ -25,8 +25,8 @@ tags: [markdown, 小书匠]
  4. 问题反馈建议：在[Github](https://github.com/suziwen/markdownxiaoshujiang/issues/)作者提供了一个大家反馈问题的渠道。
 
 
-  [1]: http://ov138d8j2.bkt.clouddn.com/2017/8/25/2017-08-25_133121.png "小书匠"
-  [2]: http://ov138d8j2.bkt.clouddn.com/2017/8/24/2017-08-24_174208.png "第三方存储"
-  [3]: http://ov138d8j2.bkt.clouddn.com/2017/8/24/2017-08-24_180445.png "印象笔记目录"
-  [4]: http://ov138d8j2.bkt.clouddn.com/2017/8/24/2017-08-24_174220.png "图床服务"
-  [5]: http://ov138d8j2.bkt.clouddn.com/2017/8/24/2017-08-24_174330.png "自定义编辑器"
+  [1]: http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/2017/8/25/2017-08-25_133121.png "小书匠"
+  [2]: http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/2017/8/24/2017-08-24_174208.png "第三方存储"
+  [3]: http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/2017/8/24/2017-08-24_180445.png "印象笔记目录"
+  [4]: http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/2017/8/24/2017-08-24_174220.png "图床服务"
+  [5]: http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/2017/8/24/2017-08-24_174330.png "自定义编辑器"

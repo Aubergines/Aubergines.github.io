@@ -156,6 +156,6 @@ grammar_cjkRuby: true
 [HiveServer2概述][3]
 
 
-  [1]: http://ov138d8j2.bkt.clouddn.com/2018/3/21/2018-03-21_092547.png "命令行使用HiveServer2"
-  [2]: http://ov138d8j2.bkt.clouddn.com/2018/3/21/2018-03-21_101731.png "使用方法"
+  [1]: http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/2018/3/21/2018-03-21_092547.png "命令行使用HiveServer2"
+  [2]: http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/2018/3/21/2018-03-21_101731.png "使用方法"
   [3]: https://www.cnblogs.com/xiaozhang123/p/7310980.html

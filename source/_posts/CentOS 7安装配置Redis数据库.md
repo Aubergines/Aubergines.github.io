@@ -17,7 +17,7 @@ Redis就是一种基于key-value的非关系型数据库。这里我将介绍Red
 
 1.1、进入Redis官网获取Redis最新稳定版下载地址2、通过wget命令下载 Redis 源代码。
 
-![Redis源码](http://ov138d8j2.bkt.clouddn.com/20170824/20170824001.png)
+![Redis源码](http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/20170824/20170824001.png)
 
 **Redis编译
 
@@ -29,7 +29,7 @@ Redis就是一种基于key-value的非关系型数据库。这里我将介绍Red
 
 make命令执行完成编译后，会在src目录下生成6个可执行文件，分别是redis-server、redis-cli、redis-benchmark、redis-check-aof、redis-check-dump、redis-sentinel
 
-![确认文件](http://ov138d8j2.bkt.clouddn.com/20170824/20170824002.png)
+![确认文件](http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/20170824/20170824002.png)
 
 
 **Redis安装配置**
@@ -38,9 +38,9 @@ make命令执行完成编译后，会在src目录下生成6个可执行文件，
 
 2、执行./utils/install_server.sh配置Redis配置之后Redis能随系统启动。
 
-![make install](http://ov138d8j2.bkt.clouddn.com/20170824/20170824003.png)
+![make install](http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/20170824/20170824003.png)
 
-![增加开机启动](http://ov138d8j2.bkt.clouddn.com/20170824/20170824004.png)
+![增加开机启动](http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/20170824/20170824004.png)
 
 **Redis服务查看、开启、关闭**
 
@@ -50,13 +50,13 @@ make命令执行完成编译后，会在src目录下生成6个可执行文件，
 
 3、关闭Redis服务操作通过/etc/init.d/redis_6379 stop命令，也可通过（service redis_6379 stop）；
 
-![查看启动情况](http://ov138d8j2.bkt.clouddn.com/20170824/20170824005.png)
+![查看启动情况](http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/20170824/20170824005.png)
 
 **Redis的测试与使用**
 
 ** ** 开启Redis服务，进入Redis的命令行，近行测试
 
-![redis 测试](http://ov138d8j2.bkt.clouddn.com/20170824/20170824006.png)
+![redis 测试](http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/20170824/20170824006.png)
 
 注：
 
