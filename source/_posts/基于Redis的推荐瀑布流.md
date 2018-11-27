@@ -28,5 +28,5 @@ PS：欢迎关注公众号
 ![enter description here][2]
 
 
-  [1]: http://ov138d8j2.bkt.clouddn.com/2018/11/2/2018-11-02_131020.png "数据情况"
-  [2]: http://ov138d8j2.bkt.clouddn.com/2018/11/2/qrcode_for_gh_51fe6eabc8b3_258.jpg "二维码"
+  [1]: http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/2018/11/2/2018-11-02_131020.png "数据情况"
+  [2]: http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/2018/11/2/qrcode_for_gh_51fe6eabc8b3_258.jpg "二维码"
