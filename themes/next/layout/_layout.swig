@@ -25,7 +25,7 @@
 
     <!----------- add Fork me on Github ------------>
 
-    <a href="https://github.com/Aubergines"><img style="position: absolute; top: 500; left: 0; border: 0;" src="http://ov138d8j2.bkt.clouddn.com/fork/fork.png" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_orange_ff7600.png"></a>
+    <a href="https://github.com/Aubergines"><img style="position: absolute; top: 500; left: 0; border: 0;" src="http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/fork/fork.png" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_orange_ff7600.png"></a>
 
     <!----------- add Fork me on Github ------------>
 
