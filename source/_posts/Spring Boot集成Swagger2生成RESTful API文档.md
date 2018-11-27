@@ -169,6 +169,6 @@ public class CommDataLogoUrlController extends BaseResponseObject {
 ![enter description here][3]
 
 
-  [1]: http://ov138d8j2.bkt.clouddn.com/2018/1/16/20180111135947.png "配置类"
-  [2]: http://ov138d8j2.bkt.clouddn.com/2018/1/16/20180111153828.png "UI"
-  [3]: http://ov138d8j2.bkt.clouddn.com/2018/1/16/20180111153538.png "展示"
+  [1]: http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/2018/1/16/20180111135947.png "配置类"
+  [2]: http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/2018/1/16/20180111153828.png "UI"
+  [3]: http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/2018/1/16/20180111153538.png "展示"
