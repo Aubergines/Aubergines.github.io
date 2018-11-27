@@ -1,6 +1,6 @@
 ---
-title: Ibatis中#与$的区别
-tags:Ibatis,#与$
+title: Ibatis中#与$的区别 
+tags: Ibatis,知识点,基础
 date: 2018-11-20 20:11:10
 grammar_cjkRuby: true
 ---
