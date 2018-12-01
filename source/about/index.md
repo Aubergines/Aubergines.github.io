@@ -21,11 +21,11 @@ date: 2015-06-24 17:23:10
 
 ## Technical List
 - `编程语言`: 
-    - `熟练`: `Python`, `C`, `C++`, `SHELL`
-    - `了解`: `Java`, `Go`, `H5, CSS3, Javascript`
+    - `熟练`: `Java`, `Python`
+    - `了解`: `SHELL`, `Go`, `H5, CSS3, Javascript`, `SHELL`
 - `Web`:
     - `后端框架`: 
-        - `框架`: `Flask`, `Django`, `Tornado`, `Bottle`
+        - `框架`: `Spring`, `Django`, `Tornado`, `Bottle`
         - `协议`: `TCP/IP`, `HTTP`
     - `前端框架`: 
         - `框架`: `Bootstrap`, `React`, `JQuery`
