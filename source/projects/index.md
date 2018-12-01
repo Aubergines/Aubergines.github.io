@@ -21,12 +21,3 @@ date: 2015-07-09 11:17:10
 
 
 ---
-
-
-
-## 测试图床:
-
-![图床](http://a.picphotos.baidu.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=86d840a6d409b3deefbfe46dfc841dbc/9358d109b3de9c8201ce1e416981800a18d84351.jpg?referer=136b2efd9745d688fa158694ad4f&x=.jpg)
-
-
-![微博图床](http://photo.weibo.com/22420486/photos/detail/photo_id/3863060879149040/album_id/3863024036362397)
