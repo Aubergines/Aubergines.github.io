@@ -11,7 +11,7 @@ date: 2015-06-24 17:23:10
 - `Email`: chinazhaoshuangquan#gmail.com  (# = @)
 - [QQ](1181152036)
 - [sina](https://weibo.com/p/1005051721471170/home)
-- ![个人公众号](http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/2018/11/2/qrcode_for_gh_51fe6eabc8b3_258.jpg)
+- `欢迎关注个人公众号`![个人公众号](http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/2018/11/2/qrcode_for_gh_51fe6eabc8b3_258.jpg)
 
 ## Hobby
 - `阅读`: 经济, 历史, 哲学, 传记, 小说
