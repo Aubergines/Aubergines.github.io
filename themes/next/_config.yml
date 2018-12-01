@@ -143,7 +143,7 @@ social_icons:
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
 #avatar:
-avatar: http://ov138d8j2.bkt.clouddn.com/avatar.jpg
+avatar: http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/avatar.jpg
 
 # Table Of Contents in the Sidebar
 toc:
