@@ -5,7 +5,6 @@ date: 2019-1-7 21:56:49
 categories: JVM
 grammar_cjkRuby: true
 ---
-#### 
 
  1. JVM的参数类型
 	 1. 标准参数: -help、-version
