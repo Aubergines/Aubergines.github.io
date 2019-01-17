@@ -4,7 +4,8 @@ date: 2015-07-09 11:17:10
 
 ## 个人项目列表:
 
-- [bottle-annotated](https://github.com/hhstore/bottle-annotated): 对 bottle-py 框架作注解版本,包含思维导图,对源码作剖析.
+- [human_knowledge_platform](https://github.com/Aubergines/human_knowledge_platform.git): spring boot 集成mybatis.
+- [spring-cloud](https://github.com/Aubergines/spring-cloud.git): spring cloud 学习笔记.
 
 
 待更新
