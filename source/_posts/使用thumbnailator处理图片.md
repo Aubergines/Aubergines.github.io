@@ -6,6 +6,8 @@ categories: 图片
 grammar_cjkRuby: true
 ---
 
+##### 前言：使用JDK自带的方法处理图片非常的不方便，目前处理图片主流的有两种，第一种依赖环境需要安装`imageMagick`和`GraphicsMagick`，第二种是使用Google开源的`Thumbnailator`这个使用起来简单点，不过相对来说`Thumbnailator`在处理图片的时候还原度没有第一种的好，不过能满足绝大多数的情况。
+
  1. 按比例进行缩放保存到文件中，其中`scale`是浮点类型的参数，值不能小于0，否则会报[IllegalArgumentException](https://docs.oracle.com/javase/1.5.0/docs/api/java/lang/IllegalArgumentException.html)异常.包含两种用法，一个参数的时候是根据原图片进行等比例的缩放，两个参数的时候第一个参数宽的，第二个是高的缩放比例
 
 ```java
@@ -28,4 +30,19 @@ Thumbnails.of("c:\\a.jpg").forceSize(500,1000).toFile("c:\\a1.jpg");
 ```java
 Thumbnails.of("c:\\a.jpg").sourceRegion(Positions.CENTER, 300, 300).scale(1).toFile("c:\\a1.jpg");
 Thumbnails.of("c:\\a.jpg").sourceRegion(Positions.CENTER, 300, 300)..size(300,400).toFile("c:\\a1.jpg");
+```
+5. 对图片进行旋转
+
+```java
+Thumbnails.of("c:\\a.jpg").size(500,1000).rotate(90).toFile("c:\\a1.jpg");
+```
+6.对图片打水印
+
+```java
+Thumbnails.of(new File("original.jpg"))
+        .size(160, 160)
+        .rotate(90)
+        .watermark(Positions.BOTTOM_RIGHT, ImageIO.read(new File("watermark.png")), 0.5f)
+        .outputQuality(0.8)
+        .toFile(new File("image-with-watermark.jpg"));
 ```
