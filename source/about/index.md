@@ -12,11 +12,7 @@ date: 2015-06-24 17:23:10
 - [QQ](1181152036)
 - [sina](https://weibo.com/p/1005051721471170/home)
 - `欢迎关注个人公众号`![个人公众号](http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/2018/11/2/qrcode_for_gh_51fe6eabc8b3_258.jpg)
-
-## Hobby
-- `阅读`: 经济, 历史, 哲学, 传记, 小说
-- `消遣`: 美剧, 欧美电影
-- `音乐`: 钢琴, 古筝, Jay, 羽泉, etc
+- `欢迎关注个人头条号`![个人公众号](http://zsq-blog-image.oss-cn-beijing.aliyuncs.com/2019/2/toutiao_290.jpeg)
 
 
 ## Technical List
@@ -43,8 +39,8 @@ date: 2015-06-24 17:23:10
     - `OS平台`: 
         - `开发环境`: `Mac-OSX(主力)`, `Win7(精通)`
         - `生产环境`: `Ubuntu 14.04`, `CentOS 6.5`
-    - `IDE`: `Pycharm`, `Virtual Studio`
-    - `Edit`: `Vim`, `Sublime Text`, `UltraEdit`, `Atom`
+    - `IDE`: `IDEA`
+    - `Edit`: `Vim`, `Sublime Text`
 
 
 
