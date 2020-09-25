@@ -1,6 +1,6 @@
 ---
 title: Spring-Cloud搭建Eureka高可用集群
-tags: ,spring cloud,eureka,高可用
+tags: spring cloud,eureka,高可用
 date: 2018-12-23 21:9:43
 categories: spring cloud
 grammar_cjkRuby: true
